@@ -1,7 +1,26 @@
 
 # Alurapic
 
-- 15/07/2018 - capítulo 1 e 2
+## Como inciar o projeto
+
+### Rodar o servidor
+
+```sh
+ ng serve --open
+```
+### Ativar o servidor 
+```sh
+ cd alurapic_api
+ npm start
+```
+
+## Atividades 
+
+
+ __15/07/2018__ - capítulo 1 e 2
+
+---
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
