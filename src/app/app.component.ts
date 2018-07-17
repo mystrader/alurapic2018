@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import { Component, Injectable } from '@angular/core';
+import { PhotoService } from './photos/photo/photo.service';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +8,15 @@ import {HttpClient} from '@angular/common/http';
 })
 export class AppComponent {
 
-  photos = [];
-  constructor(http: HttpClient){
-    console.log(http);
+  photos: any[] = [];
+
+  constructor(photoService: PhotoService){
+    photoService
+    .listFromUser('flavio')
+    .subscribe(photos => {
+      console.log(photos[0].description);
+      this.photos = photos
+    });
   }
-
-  // HttpClient http = new HttpClient(); //no java
-
-
 }
 
