@@ -1,5 +1,5 @@
 import { Component, Injectable, OnInit } from '@angular/core';
-import { PhotoService } from './photos/photo/photo.service';
+
 
 @Component({
   selector: 'app-root',
@@ -8,18 +8,7 @@ import { PhotoService } from './photos/photo/photo.service';
 })
 
 @Injectable({providedIn: 'root'}) //qualquer cara da aplicação vai ter este cara)
-export class AppComponent implements OnInit {
+export class AppComponent{
 
-
-  photos: Object[] = [];
-
-  constructor(private photoService: PhotoService){ }
-
-  ngOnInit():void{
-
-   this.photoService
-    .listFromUser('flavio')
-    .subscribe(photos => this.photos = photos);
-  }
 }
 

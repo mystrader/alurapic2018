@@ -19,8 +19,8 @@
 
  __15/07/2018__ - capítulo 1 e 2
  __17/07/2018__ - capítulo 3 - até aula 9
- __17/07/2018__ - capítulo 3 - até aula 10
- 
+ __17/07/2018__ - capítulo 3 - até aula 10__17/07/2018__ - capítulo 3 - até aula 10
+ __18/07/2018__ - capítulo 4 - até aula 06__17/07/2018__ - capítulo 4 - até aula 06
 
 ---
 
